@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-07-05T15:56:31.519Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="lW6PhX0F36GxTSDJxA4f" version="24.6.4" type="device">
+  <diagram name="Page-1" id="j_itDAxexqX-5z72tuzl">
+    <mxGraphModel dx="1430" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-8" value="&lt;h1 align=&quot;center&quot; style=&quot;margin-top: 0px;&quot;&gt;Request workflow&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Presents the way of a request from its creation to its closure.&lt;br&gt;&lt;br&gt;The flow shows only the standard path for a request.&lt;/p&gt;&lt;p&gt;Possible side actions are presented on the first column,&lt;br&gt;the main path is presented in the middle one,&lt;br&gt;and the right column shows request status.&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="248" width="331" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-11" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Main path&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="354" y="170" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Side&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Actions&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="158" y="150" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Request status&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="579" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-15" value="New" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="594" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-16" value="&lt;ul&gt;&lt;li&gt;comment&lt;/li&gt;&lt;li&gt;vote&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="133" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-31" value="Users fund it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="439" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-39" value="Project Owner plans it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="498" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-40" value="Project Owner starts it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="556" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-41" value="Project Owner releases it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="614" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-42" value="Users approve it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="672" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-43" value="Request is closed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="730" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-44" value="&lt;div&gt;Project Owner approves it&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="323" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-45" value="&lt;div&gt;Project Owner evaluates it&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="381" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJ1ziGce2eyMnjHEJSon-46" value="User creates request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341.75" y="265" width="144.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-1" value="&lt;ul&gt;&lt;li&gt;approve&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strike&gt;vote&lt;br&gt;&lt;/strike&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="594" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-2" value="&lt;ul&gt;&lt;li&gt;fund&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="371" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-5" value="Approved" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="323" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-6" value="Fundable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="381" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-7" value="Funded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="439" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-8" value="Planned" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="498" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-9" value="Started" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="556" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-10" value="Released" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="614" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-11" value="Closed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="672" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xF8JDAN_l77WoF3zi_n2-12" value="&lt;ul&gt;&lt;li&gt;&lt;strike&gt;fund&lt;br&gt;&lt;/strike&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="429" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
