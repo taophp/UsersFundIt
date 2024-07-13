@@ -48,7 +48,10 @@ use ApiPlatform\Metadata\Delete;
                     ]
                 ]
             ]
-        ]
+        ],
+        extraProperties: [
+            '_api_disable_swagger_provider' => true,
+        ],
     ),
     new Post(
         name: 'user_register',
